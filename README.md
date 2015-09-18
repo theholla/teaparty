@@ -1,15 +1,15 @@
-# Amateur Neurology
+# A Mad Tea Party
 
 #### By Diana Holland
 
 ## Description
 
-Research suggests that a person's use of repetitive or nonspecific language can predict future onset of neurological conditions such as Alzheimer's disease. This app will let you log your current word usage. Maybe it will be helpful later. I hope to expand it later to compare two texts.
+This app is a simple loop that simulates the Mad Hatter setting the table for a tea party. It is always tea time, and places always need to be set, infinitely, forever (or actually, for as long as the user specifies).
 
 ## Setup
 
-* Clone this git repository on your computer ```git clone  https://github.com/theholla/amateur-neurology.git```
-* To open in your browser, navigate to correct directory ```cd path/to/amateur-neurology``` and type ```open neurology.html```
+* Clone this git repository on your computer ```git clone  https://github.com/theholla/teaparty.git```
+* To open in your browser, navigate to correct directory ```cd path/to/teaparty``` and type ```open tea.html```
 
 ## Tests
 
