@@ -4,8 +4,10 @@ h1, h2, h3, h4 {
 #result {
   display: none;}
 
+#finalThought {
+	display: none;}
+
 img {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
-}
+	margin-right: auto;}
