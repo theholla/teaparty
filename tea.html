@@ -1,0 +1,42 @@
+<!DOCTYPE = html>
+<html>
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <link  href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>A Mad Tea Party</h1>
+            <div class="col-sm-6">
+                <img src="img/john_tenniel_alice_tea_party.jpg">
+            </div>
+            <div class="col-sm-6 center">
+                <p>Said the Hatter with a sigh: `it's always tea-time, and we've no time to wash the things between whiles.'
+                <br>`Then you keep moving round, I suppose?' said Alice.
+                <br>`Exactly so,' said the Hatter: `as the things get used up.'
+                <br>`But what happens when you come to the beginning again?' Alice ventured to ask.
+                <br>`Suppose we change the subject,' the March Hare interrupted, yawning. `I'm getting tired of this. I vote the young lady tells us a story.'</p>
+            </div>
+        </div>
+        <div class="row">
+            <form id="teacups">
+                <h1>`I'm afraid I don't know one,'</h1> <h4>said Alice, rather alarmed at the proposal.</h4>
+                    <h3><span>'But I can recite a poem.'</span></h3>
+                    <label for="cups">
+                        <span>How many cups should we place on the tea tray ?</span>
+                        <input id="cups" type="number" min="0" name="cups" class="form-control" placeholder="" required/>
+                    </label>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-queen"></span></button>
+            </form>
+
+            <div id="result">
+                <p><span class="output"></span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

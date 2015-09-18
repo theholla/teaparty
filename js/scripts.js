@@ -1,11 +1,10 @@
 
 
 $(document).ready(function() {
-  $("form#neuro-test").submit(function(event) {
-    var text = parseInt($("input#input").val());
-    var output = getFunction(text);
+  $("form#teacups").submit(function(event) {
+    var cups = parseInt($("input#cups").val());
+    var output = getPoem(cups);
 
-    $(".input").text(text);
     $(".output").text(output);
 
     $("#result").show();
