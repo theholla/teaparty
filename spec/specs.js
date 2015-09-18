@@ -10,4 +10,4 @@ describe("printSong", function() {
   it("uses standard grammar when there are no cups of tea", function() {
     expect(printSong(5)).to.have.string("no cups of tea");
   })
-})
+});
