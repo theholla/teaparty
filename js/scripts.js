@@ -1,11 +1,9 @@
 function printSong(cups) {
+  var couplets = [];
   for (i = cups; i > 0; i--) {
-    console.log(i);
-      document.write("He gave " + i + " cups of tea to Alice, ");
-      document.write(i + " cups of tea! ");
-      document.write("He took one down, and passed it around, ");
-      document.write((i -= 1) + " cups of tea for her! ");
+    couplets.push("He gave " + i + " cups of tea to Alice, " + i + " cups of tea! \n" + "He took one down, and passed it around, " + (i - 1) + " cups of tea for her! \n");
   }
+  return couplets.join("");
 }
 
 $(document).ready(function() {
