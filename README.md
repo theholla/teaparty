@@ -19,6 +19,10 @@ Mocha and Chai
 
 JavaScript, HTML5, and CSS3
 
+## UI
+
+<img src="/img/ui.png">
+
 ### Legal
 
 Copyright (c) 2015 Diana Holland
